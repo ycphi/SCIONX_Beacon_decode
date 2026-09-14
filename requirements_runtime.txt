@@ -1,0 +1,7 @@
+# Reference only: dependencies are already included; do not run pip to start.
+# Windows x64 CPython 3.14.6 (standard GIL build).
+numpy==2.4.4
+scipy==1.17.1
+soundfile==0.13.1
+cffi==2.0.0
+pycparser==3.0

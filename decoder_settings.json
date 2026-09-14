@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "common": {
+    "symbol_rate": 9600.0,
+    "deviation_hz": 2500.0,
+    "scan_step_hz": 1,
+    "detection_margin_db": 4.0,
+    "enable_boundary_recovery": true,
+    "enable_flags_only_diagnostic": true,
+    "test_inverted_polarity": true,
+    "enable_symbol_rate_search": true,
+    "symbol_rate_min": 9550.0,
+    "symbol_rate_max": 9650.0,
+    "symbol_rate_step": 1.0,
+    "baud_search_phase_count": 4,
+    "enable_clock_recovery": true,
+    "enable_fir_path": true,
+    "no_preamble_full_search_top_n": 3,
+    "enable_soft_repair": true,
+    "soft_repair_max_observations": 32,
+    "soft_repair_effort": "MAXIMUM",
+    "extended_search_min_power_excess_db": 2.0,
+    "recovery_max_header_bit_errors": 16,
+    "recovery_max_closing_flag_bit_errors": 2,
+    "recovery_max_destuff_violations": 8
+  },
+  "cs16": {
+    "sample_rate": 100000.0,
+    "scan_min_hz": -20000,
+    "scan_max_hz": 20000,
+    "phase_count": 32,
+    "enable_header_detector": true,
+    "header_z_threshold": 5.0,
+    "header_chunk_seconds": 5.0
+  },
+  "ogg": {
+    "sample_rate": 48000.0,
+    "scan_min_hz": -1000,
+    "scan_max_hz": 1000,
+    "phase_count": 8,
+    "header_z_threshold": 5.0,
+    "energy_z_threshold": 2.0,
+    "baseline_iterations": 7,
+    "baseline_half_window": 1000,
+    "detector_pretrigger_ms": 100.0,
+    "detector_posttrigger_ms": 500.0,
+    "audio_hz_per_unit": 0.0
+  }
+}

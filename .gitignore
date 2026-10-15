@@ -1,0 +1,13 @@
+
+*.cs16
+*.ogg
+*.wav
+*.mat
+runtime/
+
+*.cs16
+*.ogg
+*.wav
+*.mat
+runtime/
+*.bin

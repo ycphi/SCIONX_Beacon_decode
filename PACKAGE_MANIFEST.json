@@ -1,0 +1,123 @@
+{
+  "package": "SCIONX_Decode_Toolkit",
+  "buildDate": "2026-10-15",
+  "testedMatlab": "R2026a",
+  "scope": "CS16 IQ to postamble-anchored HDLC and TLM",
+  "files": [
+    {
+      "path": "EXPECTED_RESULTS.json",
+      "bytes": 1736,
+      "sha256": "7652ac546d4043b6801a070cdb97325fb90c70ac7580811bda9198cae811d7db"
+    },
+    {
+      "path": "README_zh-TW.md",
+      "bytes": 5360,
+      "sha256": "7a1321d677fc93de953dc09360f9cc6902b3c52943aa7c807bfa114cf048f361"
+    },
+    {
+      "path": "SCIONX/Beacon Data/CS16_Raw/20260720/20260720_220206_100000_98266_x.cs16",
+      "bytes": 293445632,
+      "sha256": "5ab6c06ef9ad3031cb03806c7a7a53700a593aca1d2b42015a8159d1c825af57"
+    },
+    {
+      "path": "SCIONX/Beacon Data/CS16_Raw/20260723/20260723_091639_100000_98266_x.cs16",
+      "bytes": 308658176,
+      "sha256": "59edd952085feb370d362a2b0529c16c40f174ad9f039411b67a3eb46b992ea9"
+    },
+    {
+      "path": "SCIONX/Beacon Data/CS16_Raw/20261001/20261001_221509_100000_69880.cs16",
+      "bytes": 295809024,
+      "sha256": "cca43244e3d50c486d280c127d8b008a60fd8305410ff0ed1b114d22c4ad0ae8"
+    },
+    {
+      "path": "SCIONX/SignalSim/GNU_Matlab_Demo/decode_scionx_tlm.m",
+      "bytes": 32778,
+      "sha256": "1e17532a5df38c40ab215c7186c54e2c09b282489911121987b07bf6db9556d4"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/align_scionx_postambles.m",
+      "bytes": 14528,
+      "sha256": "0b6b9bd85287a084cd053c0259052a6a7e91313e77e76498cbd654f416b04942"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/analyze_scionx_packets.m",
+      "bytes": 16022,
+      "sha256": "80ea5fa56178e4358ba3f0847962718cb9ddcab89f0fb3cdec9ac3c15efe3ad3"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/arrange_scionx_bursts.m",
+      "bytes": 21457,
+      "sha256": "0da19fecd5a54416e8b6f2b98eebe19573d999995033151d1c7c7b6d75eea253"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/compare_scionx_repeated_segments.m",
+      "bytes": 23627,
+      "sha256": "f2c9a9dd8b0e4c7d340d9bfe03be8539c14f9fc279e5b35075b4c6c9dbd4cf83"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/Decode_Process/decode_scionx_folder.m",
+      "bytes": 5897,
+      "sha256": "f75b02e14bf378029e3b5008f5fad462cdb9a58f55583afdc7349f3808db9597"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/Decode_Process/run_decode_process.m",
+      "bytes": 1132,
+      "sha256": "3b90942c137d13e3f4b7b587bee50a6965aa071ceda8f9f94eed95f72d0182a5"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/Decode_Process/selftest_decode_single_file.m",
+      "bytes": 1983,
+      "sha256": "bacf92f2eb21ad019618a88cc9610c1dea67b076914197fdb158456fcd78ca61"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/decode_scionx_partial_tlm.m",
+      "bytes": 5787,
+      "sha256": "220cb6152b80088427b5c581c85221a6a648265a197a5cc2f7fe6d06f56c4ed7"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/decode_scionx_postamble_frame.m",
+      "bytes": 3136,
+      "sha256": "7630da4ca79c011589517e6fcec8dbb67063b826ae28145f26df4e50a3aef90b"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/detect_scionx_postamble.m",
+      "bytes": 9742,
+      "sha256": "68c337886e4c365c81703ea7086e6cbfcd674c5becbab5f1927c13c6b78e589f"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/scan_scionx_pipeline_inputs.m",
+      "bytes": 5967,
+      "sha256": "4db344dc487c56352d1b9fd8aedd95592215f4f5b928592aeeddd593bf698ac0"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/scionx_compare_bit_windows.m",
+      "bytes": 2841,
+      "sha256": "14ed666deae829757e6c213a81c58b5929024d8285d393e8f3047bc6a816dfc8"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/scionx_crc16_x25.m",
+      "bytes": 359,
+      "sha256": "8a8fde56e07f9aa9c6eebbf61925b515d4ee4e187c7c6f050c42e0d2564e6f6d"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/scionx_reverse_hdlc.m",
+      "bytes": 2779,
+      "sha256": "0d4970f91e954317dacb0888b4d5583270af3a927ff23b3feeca40d598cea064"
+    },
+    {
+      "path": "SCIONX/封包頻譜分析/select_scionx_postamble_candidate.m",
+      "bytes": 5038,
+      "sha256": "2ba8f7566d28eb450bbd6b372c7a15fdaaa8a8b36bf3322db3fc84fc1b60ebc8"
+    },
+    {
+      "path": "selftest_portable_toolkit.m",
+      "bytes": 2945,
+      "sha256": "5617ede858d730874360cd98efbe965f5a703dcb7e4478856442a069280b995e"
+    },
+    {
+      "path": "verify_toolkit_integrity.m",
+      "bytes": 1296,
+      "sha256": "4cee4fac5bef885626fa4d633c7bc03224b6bb79b6f47f79e844bd0743d9b966"
+    }
+  ]
+}
